@@ -1,0 +1,26 @@
+{
+  "name": "nodeapi-course",
+  "version": "1.0.0",
+  "description": "Node.Js API with Express with MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Degover/nodeapi-course.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "MySQL",
+    "API",
+    "Course"
+  ],
+  "author": "Degover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Degover/nodeapi-course/issues"
+  },
+  "homepage": "https://github.com/Degover/nodeapi-course#readme"
+}
