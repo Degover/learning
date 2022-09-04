@@ -2,7 +2,6 @@ import database from '../config/mysql.config.js'
 import Response from '../domain/response.js'
 import logger from '../util/logger.js'
 import QUERY from '../query/patient.query.js'
-import { request } from 'express'
 
 const HttpStatus = {
     OK: { code: 200, status: 'OK' },
