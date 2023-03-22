@@ -12,6 +12,10 @@ body {
     color: #FFE3DC;
 }
 
+.titulo-destaque {
+    color: #D30C7B;
+}
+
 .apresentacao {
     display: flex;
     align-items: center;
@@ -33,6 +37,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.titulo-destaque {
-    color: #D30C7B;
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #D30C7B;
+    width: 48%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 22px 0;
 }
