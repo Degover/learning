@@ -10,6 +10,8 @@ body {
     box-sizing: border-box;
     background-color: #23022E;
     color: #FFE3DC;
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo-destaque {
@@ -17,10 +19,11 @@ body {
 }
 
 .apresentacao {
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 10% 15%;
+    justify-content: center;
+    gap: 20px;
 }
 
 .apresentacao__conteudo {
@@ -75,4 +78,14 @@ body {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
     font-size: 24px;
+}
+
+.rodape {
+    font-family: 'Mont Serrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+    text-align: center;
+    color: black;
+    background-color: #D30C7B;
 }
