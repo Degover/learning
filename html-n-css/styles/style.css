@@ -6,11 +6,21 @@
     text-decoration: none;
 }
 
+:root {
+    --cor-primaria: #23022E;
+    --cor-secundaria: #FFE3DC;
+    --cor-terciaria: #D30C7B;
+    --cor-hover: #1b0224;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secudaria: 'Montserrat', sans-serif;
+}
+
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #23022E;
-    color: #FFE3DC;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     display: flex;
     flex-direction: column;
 }
@@ -26,10 +36,10 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secudaria);
     font-weight: 400;
     font-size: 24px;
-    color: #D30C7B;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao {
@@ -41,7 +51,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #D30C7B;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo {
@@ -53,12 +63,12 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secudaria);
 }
 
 .apresentacao__links {
@@ -70,7 +80,7 @@ body {
 }
 
 .apresentacao__links__link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secudaria);
     font-weight: bold;
     width: 378px;
     border-radius: 8px;
@@ -83,16 +93,16 @@ body {
     justify-content: center;
     gap: 16px;
 
-    color: #FFE3DC;
-    border: 2px solid #D30C7B;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
 }
 
 .apresentacao__links__link:hover {
-    background-color: #1b0224;
+    background-color: var(--cor-hover);
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -104,5 +114,5 @@ body {
     padding: 24px;
     text-align: center;
     color: black;
-    background-color: #D30C7B;
+    background-color: var(--cor-terciaria);
 }
