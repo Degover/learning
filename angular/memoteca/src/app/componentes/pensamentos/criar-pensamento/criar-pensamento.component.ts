@@ -22,8 +22,4 @@ export class CriarPensamentoComponent implements OnInit {
   criarPensamento(): void {
 
   }
-
-  cancelar(): void {
-
-  }
 }
