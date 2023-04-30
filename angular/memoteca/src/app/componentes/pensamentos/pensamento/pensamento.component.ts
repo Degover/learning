@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Pensamento } from 'src/app/model/pensamento.model';
 
 @Component({
   selector: 'app-pensamento',
@@ -6,8 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./pensamento.component.css']
 })
 export class PensamentoComponent implements OnInit {
-  @Input() pensamento = {
-    id: '1',
+  @Input() pensamento: Pensamento = {
+    id: 0,
     conteudo: 'Aprendendo Angular',
     autoria: 'Dev',
     modelo: 'modelo3'
