@@ -16,8 +16,7 @@ export class PensamentoComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   larguraPensamento(): string {
     if (this.pensamento.conteudo.length >= 256)
